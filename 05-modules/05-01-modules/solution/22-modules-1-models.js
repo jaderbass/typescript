@@ -1,0 +1,6 @@
+/**
+ * Stadtbibliothek – Module
+ *
+ * Musterlösung
+ */
+export {};
