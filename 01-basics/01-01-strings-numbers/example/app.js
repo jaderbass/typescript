@@ -4,7 +4,7 @@ const productName = "Weltkarte aus Holz";
 const price = 89.9;
 const category = "Dekoration";
 const vatRate = 0.19;
-const isActive = true;
+const isActive = false;
 const stock = 12;
 // Berechnungen
 const vatAmount = price * vatRate;

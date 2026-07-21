@@ -3,7 +3,7 @@ const productName: string = "Weltkarte aus Holz";
 const price: number = 89.9;
 const category: string = "Dekoration";
 const vatRate: number = 0.19;
-const isActive: boolean = true;
+const isActive: boolean = false;
 const stock: number = 12;
 
 // Berechnungen
