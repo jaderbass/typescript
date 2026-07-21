@@ -1,4 +1,3 @@
-"use strict";
 // Einheitliche Strukturen für Produkte und Kunden
 const shopProduct = {
     id: 1001,
@@ -39,3 +38,4 @@ function printOrder(order) {
   `);
 }
 printOrder(order);
+export {};

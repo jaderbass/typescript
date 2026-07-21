@@ -1,4 +1,3 @@
-"use strict";
 /**
  * Stadtbibliothek – Module
  *
@@ -8,4 +7,5 @@
  * 3) Erzeuge ein verfügbares Buch und ein aktives Mitglied.
  * 4) Leihe das Buch aus und gib das Ergebnis in der Konsole aus.
  */
+export {};
 // TODO

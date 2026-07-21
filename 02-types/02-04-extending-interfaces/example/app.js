@@ -1,4 +1,3 @@
-"use strict";
 // Bestehende Produktstrukturen erweitern
 const woodenMap = {
     id: 1001,
@@ -40,3 +39,4 @@ printBaseProduct(woodenMap);
 printShippingInfo(woodenMap);
 printBaseProduct(travelGuide);
 printDownloadInfo(travelGuide);
+export {};

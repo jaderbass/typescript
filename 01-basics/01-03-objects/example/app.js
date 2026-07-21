@@ -1,4 +1,3 @@
-"use strict";
 // Objekte: Produkte als Objektstrukturen darstellen
 const productDeko = {
     id: 1001,
@@ -36,3 +35,4 @@ console.log(`
 `);
 console.log(`Bestellwert: ${orderTotal.toFixed(2)} €`);
 console.log(`Zahlungsstatus: ${customerOrder.isPaid ? "bezahlt" : "offen"}`);
+export {};

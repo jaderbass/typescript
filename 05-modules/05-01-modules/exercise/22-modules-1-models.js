@@ -1,4 +1,3 @@
-"use strict";
 /**
  * Stadtbibliothek – Module
  *
@@ -8,4 +7,5 @@
  * 2) Definiere und exportiere das Interface `Member` mit:
  *    memberNumber, name und active
  */
+export {};
 // TODO

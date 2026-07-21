@@ -1,4 +1,3 @@
-"use strict";
 // Produktlisten und feste Wertepaare
 // einfache Produktlisten
 const productNames = [
@@ -38,3 +37,4 @@ const [referenceName, productNumber] = productReference;
 const [warehouse, shelf, compartment] = storageLocation;
 console.log(`${referenceName} hat die Produktnummer ${productNumber}`);
 console.log(`Lagerort: ${warehouse}, Regal ${shelf}, Fach ${compartment}`);
+export {};

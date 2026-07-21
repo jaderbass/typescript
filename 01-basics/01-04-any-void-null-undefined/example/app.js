@@ -1,4 +1,3 @@
-"use strict";
 // Unvollständige und fehlende Werte behandeln:
 // Any, Void, Null und Undefined
 // any: TypeScript prüft den Wert nicht auf Datentyp
@@ -33,3 +32,4 @@ const regularPrice = calculateDiscount(89.9);
 const reducedPrice = calculateDiscount(89.9, "ERFURT26");
 console.log(`Normalpreis: ${regularPrice.toFixed(2)} €`);
 console.log(`Rabattpreis: ${reducedPrice.toFixed(2)} €`);
+export {};

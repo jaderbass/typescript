@@ -1,4 +1,3 @@
-"use strict";
 // Union Types
 // unterschiedliche Werte für IDs und Statusausgaben
 // Eine Produkt-ID kann aus einer Datenbank als Zahl
@@ -38,3 +37,4 @@ function getOrderStatusLabel(status) {
     }
 }
 console.log(getOrderStatusLabel(orderStatus));
+export {};

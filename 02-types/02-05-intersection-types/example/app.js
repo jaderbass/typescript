@@ -1,4 +1,3 @@
-"use strict";
 // Intersection Types
 // Mehrere Typbausteine miteinander kombinieren
 const inventoryItem = {
@@ -38,3 +37,4 @@ function printProductReport(product) {
 }
 printInventory(inventoryItem);
 printProductReport(reportItem);
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 // Produktdaten
 const productName = "Weltkarte aus Holz";
 const price = 89.9;
@@ -25,3 +24,4 @@ const productSummery = `
   Gesamtwert des Lagerbestands: ${totalStockValue.toFixed(2)} €
 `;
 console.log(productSummery);
+export {};

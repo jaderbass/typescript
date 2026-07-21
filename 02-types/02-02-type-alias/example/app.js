@@ -1,4 +1,3 @@
-"use strict";
 // Type Aliases
 // Wiederverwendbare Typen für Preise und Produkte
 const product = {
@@ -32,3 +31,4 @@ function printProduct(product) {
   `);
 }
 printProduct(product);
+export {};

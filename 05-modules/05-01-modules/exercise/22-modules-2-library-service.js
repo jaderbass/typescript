@@ -1,4 +1,3 @@
-"use strict";
 /**
  * Stadtbibliothek – Module
  *
@@ -10,4 +9,5 @@
  *    - bei einem Fehler: Error werfen
  *    - Rückgabe: neues Book-Objekt mit available: false
  */
+export {};
 // TODO
