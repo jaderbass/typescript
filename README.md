@@ -3,9 +3,19 @@
 ## Install Software
 
 ```bash
-npm
 npm install -g typescript
 npm install -g lite-server
+```
+
+**Hinweise:** 
+In modernen Projekte wird wird TypeScript nicht mehr global, sondern immer nur auf Projekt-Ebene installiert. Der Grund ist, dass man so mehrere Projekte auf einem System mit unterschiedlichen TypeScript-Versionen nutzen kann, ohne jedes Mal TypeScript Up- oder Downzugraden. Der Befehl dazu lautet dann `npm install --save-dev typescript`.
+
+Wenn für das Projekt die Live-Server-Erweiterung im VS Code oder eine lokale Webserver-Installation wie z.B. `Laragon` benutzt wird, um das Projekt im Browser anzuzeigen, muss der Lite-Server **nicht** installiert werde.
+
+Die minimale Installationsanweisung ist dann einfach nur
+
+```bash
+npm install --save-dev typescript
 ```
 
 ## TypeScript VSCode
@@ -34,12 +44,19 @@ Für den Kurs die minimalen Einstellungen für die `tsconfig.json` übernehmen:
   "compilerOptions": {
     "module": "es2020",
     "target": "es2020",
-    "strict": true
+    "strict": true,
+    "moduleDetection": "force",
   },
-  "include": ["**/*.ts"],
-  "exclude": [".vscode","node_modules"]
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    ".vscode",
+    "node_modules"
+  ]
 }
 ```
+Die Einstellung `"moduleDetection": "force"` unter `"compilerOptions"` sorgt dafür, dass nicht das ganze Projekt als ein Namensraum gesehen wird, sondern jedes Verzeichnis seinen eigenen Namensraum behält.
 
 ## Remote-Repo übernehmen und dessen Stand ziehen
 
