@@ -1,6 +1,6 @@
 "use strict";
 // Objekte: Produkte als Objektstrukturen darstellen
-const product = {
+const productDeko = {
     id: 1001,
     name: "Weltkarte aus Holz",
     category: "Dekoration",
@@ -8,10 +8,10 @@ const product = {
     stock: 12,
     isActive: true,
 };
-console.log("Produkt:", product);
-console.log(`${product.name} kostet ${product.price.toFixed(2)} €`);
-product.stock -= 2; // zwei Produkte wurden verkauft
-console.log(`Neuer Lagerbestand: ${product.stock}`);
+console.log("Produkt:", productDeko);
+console.log(`${productDeko.name} kostet ${productDeko.price.toFixed(2)} €`);
+productDeko.stock -= 2; // zwei Produkte wurden verkauft
+console.log(`Neuer Lagerbestand: ${productDeko.stock}`);
 // verschachteltes Objekt
 const customerOrder = {
     orderNumber: "GS-2026-001",

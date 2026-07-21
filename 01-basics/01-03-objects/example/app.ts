@@ -1,6 +1,6 @@
 // Objekte: Produkte als Objektstrukturen darstellen
 
-const product: {
+const productDeko: {
   id: number;
   name: string;
   category: string;
@@ -16,13 +16,13 @@ const product: {
   isActive: true,
 }
 
-console.log("Produkt:", product);
+console.log("Produkt:", productDeko);
 
-console.log(`${product.name} kostet ${product.price.toFixed(2)} €`);
+console.log(`${productDeko.name} kostet ${productDeko.price.toFixed(2)} €`);
 
-product.stock -= 2; // zwei Produkte wurden verkauft
+productDeko.stock -= 2; // zwei Produkte wurden verkauft
 
-console.log(`Neuer Lagerbestand: ${product.stock}`);
+console.log(`Neuer Lagerbestand: ${productDeko.stock}`);
 
 
 // verschachteltes Objekt
